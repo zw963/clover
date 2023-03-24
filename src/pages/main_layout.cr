@@ -33,6 +33,7 @@ abstract class MainLayout
         mount Shared::FlashMessages, context.flash
         render_signed_in_user
         content
+        mount Shared::Footer
       end
     end
   end
