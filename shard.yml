@@ -39,3 +39,6 @@ development_dependencies:
   lucky_flow:
     github: luckyframework/lucky_flow
     version: ~> 0.9.0
+  debug:
+    github: Sija/debug.cr
+    version: ~> 2.0.0

@@ -18,7 +18,7 @@ elsif LuckyEnv.production?
 else
   # Use a pretty formatter printing to STDOUT in development
   backend = Log::IOBackend.new
-  backend.formatter = Lucky::PrettyLogFormatter.proc
+  # backend.formatter = Lucky::PrettyLogFormatter.proc
   Log.dexter.configure(:debug, backend)
   DB::Log.level = :info
 end
